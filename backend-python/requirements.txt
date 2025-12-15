@@ -3,3 +3,5 @@ uvicorn
 pillow
 pypdf
 qrcode
+pdf2docx
+python-multipart
