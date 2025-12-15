@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Response
-from services.qr_service import gerar_qr
+from ..services.qr_service import gerar_qr
 
 router = APIRouter(prefix="/qr", tags=["QR Code"])
 
