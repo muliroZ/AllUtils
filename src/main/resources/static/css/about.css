@@ -1,0 +1,153 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.goal {
+    background-color: #f9f9f9;
+    border-left: 5px solid #4CAF50;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.goal h2 {
+    color: #4CAF50;
+    margin-top: 0;
+}
+
+.goal p {
+    line-height: 1.6;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: #4341d0 5px solid;
+}
+
+.team h2 {
+    width: 100%;
+    color: #4341d0;
+    margin-top: 0;
+}
+
+.team p {
+    width: 100%;
+    line-height: 1.6;
+}
+
+.team-member {
+    flex: 1 1 calc(33% - 20px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.team-member img {
+    border: #4341d0 3px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.member-info h3 {
+    margin: 10px 0 5px 0;
+    font-size: 1.2em;
+}
+
+.about-me {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.role {
+    font-weight: bold;
+    color: #4341d0;
+    margin-bottom: 10px;
+}
+
+.bio {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.social-info {
+    margin-top: 10px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #4341d0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .team-member {
+        flex: 1 1 100%;
+    }
+}
+
+.future {
+    background-color: #f9f9f9;
+    border-left: 5px solid #FFA500;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.future h2 {
+    color: #FFA500;
+    margin-top: 0;
+}
+
+.future ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.contact {
+    background-color: #f9f9f9;
+    border-left: 5px solid #af4c4c;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #af4c4c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
