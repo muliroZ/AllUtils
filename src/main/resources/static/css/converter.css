@@ -1,0 +1,53 @@
+.tool-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tool-container label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.tool-container input[type="file"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tool-container input[type="file"]::file-selector-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-right: 1px solid #ccc;
+    padding: 10px 20px;
+    margin-right: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color 0.3s;
+}
+
+.tool-container input[type="file"]::file-selector-button:hover {
+    background-color: #45a049;
+}
+
+.tool-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tool-container button:hover {
+    background-color: #45a049;
+}
+

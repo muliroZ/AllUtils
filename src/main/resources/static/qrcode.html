@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/qrcode.css" />
+    <script defer src="js/qrcode.js"></script>
+    <title>Gerador de QR Code - All Utils</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/allutilslogo.png" alt="All Utils Logo" />
+        <a href="index.html">ALL UTILS</a>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Início</a>
+        <a href="services.html">Serviços</a>
+        <a href="about.html">Sobre</a>
+      </nav>
+    </header>
+    <main class="main-content">
+      <h1>Gerador de QR Code</h1>
+      <div class="tool-container">
+        <form id="qrForm">
+          <label for="text">Digite o texto ou URL para gerar o QR Code:</label>
+          <input
+            type="text"
+            id="text"
+            name="text"
+            placeholder="Digite o texto ou a URL"
+            required
+          />
+          <button type="submit">Gerar QR Code</button>
+        </form>
+        <div id="qrcode"></div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy 2025 Murilo de Andrade. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

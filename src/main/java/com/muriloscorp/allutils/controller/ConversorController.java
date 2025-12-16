@@ -21,7 +21,7 @@ public class ConversorController {
 
     @PostMapping(value = "/pdf-to-docx", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public ResponseEntity<byte[]> converterPdfParaDocx(@RequestParam("file") MultipartFile file) throws IOException {
-        if (!MediaType.MULTIPART_FORM_DATA_VALUE.equals(file.getContentType())) {
+        if (!MediaType.APPLICATION_PDF_VALUE.equals(file.getContentType())) {
             return ResponseEntity.badRequest().body("O arquivo enviado não é um PDF válido.".getBytes());
         }
 
