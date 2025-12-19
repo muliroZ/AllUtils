@@ -1,0 +1,87 @@
+.register-section {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.register-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.register-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-section label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.register-section input[type="text"],
+.register-section input[type="email"],
+.register-section input[type="password"] {
+    display: block;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+.register-section .error-message {
+    color: #e74c3c;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.register-section .success-message {
+    color: #28a745;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.register-section .login-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-section .login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-section .login-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .register-section {
+        padding: 15px;
+    }
+}
