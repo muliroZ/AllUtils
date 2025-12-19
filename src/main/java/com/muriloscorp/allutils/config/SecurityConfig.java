@@ -49,6 +49,7 @@ public class SecurityConfig {
                                 "/js/**",
                                 "/error"
                         ).permitAll()
+                        .requestMatchers("/api/v1/**").permitAll()
                         .requestMatchers("/auth/**").permitAll()
                         .anyRequest().authenticated())
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)
