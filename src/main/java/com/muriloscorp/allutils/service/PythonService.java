@@ -21,7 +21,7 @@ public class PythonService {
 
     public byte[] gerarQr(String texto) {
         return webClient.post()
-                .uri("/qr")
+                .uri("/qr/")
                 .bodyValue(texto)
                 .retrieve()
                 .bodyToMono(byte[].class)

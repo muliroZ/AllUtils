@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     formData.append("file", file);
 
     try {
-      const response = await fetch("/api/v1/convert/pdf-to-docx", {
+      const response = await fetch("/api/v1/converter/pdf-to-docx", {
         method: "POST",
         body: formData,
       });
